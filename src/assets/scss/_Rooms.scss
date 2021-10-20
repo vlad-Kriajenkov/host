@@ -1,0 +1,135 @@
+%textSt_title{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px; 
+    // line-height: 21px;
+    
+}
+
+%textSt_h1{
+    font-family: "Montserrat";
+    font-style: normal;
+    
+    font-size: 10px;
+    // line-height: 21px;
+    
+}
+
+%textSt_p{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    // line-height: 21px;
+    
+}
+
+
+.container {
+
+    &__Width {
+        height: 100%;
+        max-width: 800px;
+        margin: 0px auto;
+    }
+
+    &__reservations {
+    }
+
+    &__coupons {
+    }
+
+    &__imformationCards {
+    }
+}
+.selection {
+
+    &__Stage {
+        
+        img{
+            width: 800px;
+            margin: 50px 0px 50px 0px;
+            
+        }
+    }
+}
+.info {
+
+    &_rooms {
+        margin: 20px 0px 20px 0px ;
+        // position: relative;
+        // height: 100vh;
+        display: flex;
+    }
+}
+.service {
+    background: #3F8CFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 50%;
+    height: 100%;
+    padding: 37px 28px 60px 28px;
+    
+
+    &__title {
+        @extend %textSt_title;
+        color: white;
+        margin-bottom: 18px;
+    }
+
+    &__info {
+        display: flex;
+    }
+}
+
+.table {
+    text-align: left;
+}
+.tr {
+    // display: flex;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.th {
+    width: 100px;
+    @extend %textSt_h1;
+    font-weight: 500;
+    color:white;
+}
+.td{
+    padding-top: 2px;
+    width: 230px;
+    @extend %textSt_p; 
+    color:white;
+}
+
+
+.regulations {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding: 28px;
+    margin-top: 43px;
+    width: 50%;
+    margin-left: -35px;
+    
+
+
+    h1{
+        @extend %textSt_h1;
+        font-weight: 600;
+        span{
+            @extend %textSt_p;
+            font-size: 8px;
+        }
+    }
+    &__title {
+        @extend %textSt_title;
+        margin-bottom: 15px;
+    }
+
+    &__flex {
+        display: flex;
+        margin-bottom: 3px;
+      
+    }
+}

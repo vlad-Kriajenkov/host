@@ -1,0 +1,343 @@
+
+%text_StyleTitle{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    // line-height: 21px;
+    color: #585858;
+
+}
+
+%text_StyleInfo{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    color:  #878787;
+    line-height: 13px;
+}
+
+%button_Select{
+    width: 119px;
+    height: 25px;
+    background: #3F8CFF;
+    box-shadow: 0px 2px 20px rgba(63, 140, 255,  0.50);
+    border-radius: 6px;
+    margin-top: 1px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+%pay_nutrion{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    // line-height: 21px;
+    color:  #FFB23F;
+}
+
+
+.reserveCard {
+
+    &__container {
+        display: flex;
+        max-width: 660px;
+        margin: 0px auto;
+        margin-top: 10px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        padding: 10px;
+        position: relative;
+
+
+    }
+}
+
+
+
+.reserved {
+
+    &__img {
+        
+    }
+
+    &__info {
+        width: 345px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    &__pay {
+        text-align: center;
+        margin-top: 12px;
+    }
+}
+.reserved {
+
+    &__imgPhone {
+        display: none;
+    }
+}
+.img {
+
+    &__photoRoomsPhone {
+        position: relative;
+        width: 187px;
+    }
+
+    &__freeRoomsPhone {
+        position: absolute;
+        
+        margin-top: -25px;
+        background-color: #FFB23F;
+        width: 187px;
+        height: 25px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        color: #FFFFFF;
+        line-height: 13px;
+    }
+}
+
+.img {
+
+    &__photoRooms {
+        position: relative;
+        width: 187px;
+    }
+
+    &__freeRooms {
+        position: absolute;
+        
+        margin-top: -44px;
+        background-color: #FFB23F;
+        width: 187px;
+        height: 25px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        color: #FFFFFF;
+        line-height: 13px;
+    }
+}
+.info {
+
+    &__taitle {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        
+    }
+
+    &__room {
+        width: 275px;
+        margin-bottom: 10px;
+       
+    }
+
+    &__calendar {
+    }
+
+    &__calendarPhonePhone{
+        display: none;
+    }
+}
+
+.calendar {
+
+    &__buttonCalendar {
+        border: 1.5px solid #3F8CFF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: white;
+        margin-right: 10px;
+        width: 83px;
+        height: 24px;
+        
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        color: #3F8CFF;
+        line-height: 13px;
+
+    }
+
+    &__pricesButton {
+        background: #FFB23F;
+        box-sizing: border-box;
+        border-radius: 8px;
+        width: 83px;
+        height: 24px;
+
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        color: white;
+        line-height: 13px;
+    }
+    &__pricesButtonPhone{
+        border: 1.5px solid #3F8CFF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: white;
+        margin-right: 10px;
+        width: 83px;
+        height: 24px;
+        
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        color: #3F8CFF;
+        line-height: 13px;
+    }
+}
+
+
+.taitle {
+
+    &__title {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        // line-height: 21px;
+        color: #585858;
+    }
+
+    &__img {
+        width: 20px;
+    }
+}
+
+.room {
+
+    &__title {
+        @extend %text_StyleInfo;
+        margin-bottom: 5px;
+    }
+
+    &__flex {
+        // display: flex;
+    }
+}
+.flex {
+
+    &__title {
+        @extend %text_StyleTitle
+    }
+
+    &__info {
+        @extend %text_StyleInfo;
+    }
+}
+.pay {
+
+    &__notNutrition {
+    }
+
+    &__nutrition {
+    }
+}
+.notNutrition {
+
+    &__texts {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        color: #878787;
+        line-height: 13px;
+    }
+
+    &__pay {
+        @extend %pay_nutrion
+    }
+
+    &__button {
+        @extend %button_Select
+    }
+}
+.nutrition {
+
+    &__texts {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        color: #878787;
+        line-height: 13px;
+    }
+
+    &__pay {
+        @extend %pay_nutrion
+    }
+
+    &__button {
+        @extend %button_Select
+    }
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    background: #3F8CFF;
+    margin: 10px 0px 10px 0px;
+   }
+
+   .ReservCradsPraice {
+
+    &__flex {
+        display: flex;
+        justify-content: center;
+        max-width: 630px;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        z-index: 10;
+        
+    }
+    &__flexPhone{
+        display: none;
+    }
+   
+}
+
+
+.fade-enter-active,
+
+.fade-leave-active {
+
+  transition: opacity 0.5s ease;
+
+}
+
+.fade-enter-from,
+
+.fade-leave-to {
+
+  opacity: 0;
+
+}

@@ -1,0 +1,40 @@
+.serch__pipl input, .serch__set input, .serch__get input {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  background: #ffffff !important;
+  outline: none;
+  height: 24px;
+  width: 120px;
+  color: #cccccc;
+  font-size: 11px;
+  font-family: Tahoma;
+}
+
+.serch__pipl, .serch__set, .serch__get {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__Serch img {
+  max-width: 100%;
+}
+
+.serch__img {
+  position: relative;
+}
+.serch__widch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 184px;
+  left: 200px;
+  width: 820px;
+  height: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+  margin: 0px auto;
+}

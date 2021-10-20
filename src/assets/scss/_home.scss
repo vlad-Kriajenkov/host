@@ -1,0 +1,234 @@
+
+%inputStyle{
+    border: 1px solid #cccccc; //цвет рамки
+    border-radius: 3px; //закругление углов (общее)
+    -webkit-border-radius: 3px; //закругление углов (Google Chrome)
+    -moz-border-radius: 3px; //закругление углов (FireFox)
+    -khtml-border-radius: 3px; //закругление углов (Safari)
+    background: #ffffff !important; // желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым
+    outline: none; // удаляет обводку в браузерах хром(желтая) и сафари(синяя)
+    height: 24px; // высота на свое усмотрение
+    width: 150px; // ширина на свое усмотрение
+    color: #cccccc; //цвет шрифта в обычном состоянии
+    font-size: 11px; // Размер шрифта
+    font-family: Tahoma; // Стиль шрифта
+}
+
+%FlexSerch{
+    display: flex;
+    flex-direction: column;
+}
+
+%P_Style{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 21px;
+    color: #585858;
+}
+
+%M_B{
+    margin-bottom: 20px;
+}
+
+%Title_style{
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37px;
+    // text-transform: uppercase;
+    
+}
+.container {
+max-width: 100%; 
+    &__Serch {
+        // display: flex;
+        // justify-content: center;
+        
+        img {
+            max-width: 100%;
+        }
+        
+    }
+}
+.img {
+
+    &__vector {
+        position: absolute;
+        z-index: 1;
+        
+        bottom: 0px;
+    }
+}
+.serch {
+    &__img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__widch {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        margin: -23% 0% 23% 19%;
+        width: 62%;
+        height: 18.5%;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0,  0.30);
+        z-index: 100;
+        button{
+            // margin-top: 10px;
+            width: 83px;
+            height: 22px;
+            background: #3F8CFF;
+            box-shadow: 0px 2px 20px rgba(63, 140, 255,  0.50);
+            border-radius: 6px;
+            margin-top: 1px;
+            p{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 8px;
+                line-height: 17px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    &__get {
+        @extend %FlexSerch;
+        @extend %M_B;
+        p{
+            @extend %P_Style;
+        }
+        input {
+           @extend %inputStyle;
+        }
+    }
+
+    &__set {
+        @extend %FlexSerch;
+        @extend %M_B;
+        p{
+            @extend %P_Style;
+        }
+        input {
+            @extend %inputStyle;
+         }
+    }
+
+    &__pipl {
+        @extend %FlexSerch;
+        @extend %M_B;
+        p{
+            @extend %P_Style;
+        }
+        input {
+            @extend %inputStyle;
+         }
+    }
+}
+
+.max {
+
+    &_width {
+        max-width: 800px;
+        margin: 0px auto;
+    }
+}
+.our {
+
+    &__Rooms {
+    }
+}
+.rooms {
+
+    &__title {
+        @extend %Title_style;
+        margin: 21px 0px 16px 0px;
+        text-transform: uppercase;
+        
+    }
+} 
+.media {
+
+    &__rooms {
+        display: none;
+    }
+}
+.rooms {
+
+    &__titles {
+        display: none;
+    }
+}
+
+.info {
+
+    &__Covid {
+
+    }
+}
+.Covid {
+
+    &__title {
+        @extend %Title_style;
+        margin: 52px 0px 15px 0px;
+    }
+
+    &__Flex {
+        display: flex;
+    }
+
+    &__Img {
+        content:url(../img/Home/Valentina.svg);
+        margin-left: 35px;
+        margin-right: 24px;
+        max-width: 255px;
+    }
+
+    &__info {
+        p{
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 15px;
+            color: #777777;
+            margin: 6px 0 11px 0;
+        }
+    }
+}
+ 
+.comment {
+
+    &__Slider {
+        // margin-bottom: 100px;
+    }
+}
+.slider {
+    
+    &__title {
+        @extend %Title_style;
+        margin: 42px 0px 21px 0px;
+    }
+
+    &__body {
+    }
+
+    &__PeopleImg {
+        display: block;
+        margin-left: 41%;
+        margin-right: auto;
+        width: 6.5%;
+        margin-bottom: 52px;
+        margin-top: 18px;
+      
+    }
+}
+

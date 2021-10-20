@@ -1,0 +1,203 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    .selection__Stage{
+        display: none;
+    }
+    
+}
+
+@media (max-width:650px) {
+
+    ////////////container__reservations//////////////
+    
+    .info__dayDeparture,
+    .info__dayEntry,
+    .info_human,
+    .info__day{
+        width: 105px;
+       
+    }
+    .imgLine{
+        display: none;
+    }
+    .infoReserve__button{
+        margin: 10px;
+    }
+
+    /////////////container__coupons///////////////////////
+   .coupon__widch{
+       width: auto;
+       height: auto;
+   }
+   .coupon__backgraund{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coupon__Input{
+        margin: 10px 0px 10px 0px;
+        border: 1px solid #D9D9D9;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    .coupon__button{
+        margin: 0px 0px 10px 0px;
+        box-shadow: 0px 0px 16px rgba(63, 140, 255, 0.5);
+        border-radius: 6px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    /////////////reserve-Card///////////////////////////////////
+ 
+.reserve {
+    padding: 10px;
+}
+.reserveCard {
+
+		&__container {
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+		}
+}
+.reserved {
+
+		&__img {
+            display: none;
+		}
+
+		&__imgPhone {
+            display: block;
+		}
+
+		&__info {
+            width: 100%;
+            text-align: center;
+		}
+
+		&__pay {
+            display: none;
+		}
+}
+.img {
+		&__photoRoomsPhone {
+            width: 100%;
+		}
+
+		&__freeRoomsPhone {
+            width: 100%;
+		}
+}
+.info {
+
+		&__taitle {
+            display: flex;
+            justify-content: center;
+		}
+
+		&__room {
+            width: 100%;
+		}
+
+		&__calendar {
+            display: none;
+		}
+        &__calendarPhonePhone{
+            display: block;
+        }
+}
+.taitle {
+		&__img {
+            display: none;
+		}
+}
+.room {
+		&__flex {
+            display: none;
+		}
+}
+
+.calendar {
+        &__pricesButtonPhone{
+            margin: 10px;
+        }
+}
+
+
+.ReservCradsPraice {
+
+		&__flexPhone {
+            display: flex;
+            flex-direction: column;
+		}
+}
+.pay__notNutritionList{
+    margin-left: -45px !important;
+}
+
+
+////////////////info room/////////////////////
+
+.info {
+
+    &_rooms {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px 0px 0px;
+    }
+}
+.service {
+    width: auto;
+    padding: 37px 11px 60px 11px;
+    &__title {
+        text-align: center;
+    }
+
+    &__info {
+    }
+}
+.table {
+}
+.tr {
+}
+.th {
+    width: 130px;
+    font-size: 12px;
+}
+.td {
+    width: auto;
+    font-size: 10px;
+}
+.regulations {
+    margin: auto;
+    width: auto;
+    h1{
+        font-size: 12px;
+        span{
+            font-size: 12px;
+        }
+    }
+    &__title {
+        text-align: center;
+    }
+
+    &__flex {
+    }
+}
+
+}
+

@@ -1,0 +1,1508 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap");
+.containerNav {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+.containerNav__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conatainer_Width {
+  max-width: 800px;
+  margin: 0px auto;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.header__strit {
+  display: flex;
+}
+.header__strit img {
+  width: 11px;
+  margin-right: 9px;
+}
+.header__strit p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 15px;
+}
+.header__info {
+  width: 290px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__gmail {
+  display: flex;
+}
+.header__gmail img {
+  width: 12px;
+  margin-right: 7px;
+}
+.header__gmail a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 15px;
+}
+.header__number {
+  display: flex;
+}
+.header__number img {
+  width: 11px;
+  margin-right: 9px;
+}
+.header__number p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 15px;
+}
+
+.containerNAv__footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.Nav__link hr {
+  display: none;
+}
+
+.footer__Logo p {
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #585858;
+}
+.footer__Nav .Nav__A {
+  margin-right: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 43px;
+}
+.footer__social a img {
+  width: 15px;
+  padding-top: 12px;
+  margin-right: 8px;
+}
+
+.serch__pipl input, .serch__set input, .serch__get input {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  background: #ffffff !important;
+  outline: none;
+  height: 24px;
+  width: 150px;
+  color: #cccccc;
+  font-size: 11px;
+  font-family: Tahoma;
+}
+
+.serch__pipl, .serch__set, .serch__get {
+  display: flex;
+  flex-direction: column;
+}
+
+.serch__pipl p, .serch__set p, .serch__get p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 21px;
+  color: #585858;
+}
+
+.serch__pipl, .serch__set, .serch__get {
+  margin-bottom: 20px;
+}
+
+.slider__title, .Covid__title, .rooms__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 37px;
+}
+
+.container {
+  max-width: 100%;
+}
+.container__Serch img {
+  max-width: 100%;
+}
+
+.img__vector {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+}
+
+.serch__img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.serch__widch {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  margin: -23% 0% 23% 19%;
+  width: 62%;
+  height: 18.5%;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+.serch__widch button {
+  width: 83px;
+  height: 22px;
+  background: #3F8CFF;
+  box-shadow: 0px 2px 20px rgba(63, 140, 255, 0.5);
+  border-radius: 6px;
+  margin-top: 1px;
+}
+.serch__widch button p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.max_width {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.rooms__title {
+  margin: 21px 0px 16px 0px;
+  text-transform: uppercase;
+}
+
+.media__rooms {
+  display: none;
+}
+
+.rooms__titles {
+  display: none;
+}
+
+.Covid__title {
+  margin: 52px 0px 15px 0px;
+}
+.Covid__Flex {
+  display: flex;
+}
+.Covid__Img {
+  content: url(../img/Home/Valentina.svg);
+  margin-left: 35px;
+  margin-right: 24px;
+  max-width: 255px;
+}
+.Covid__info p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  color: #777777;
+  margin: 6px 0 11px 0;
+}
+
+.slider__title {
+  margin: 42px 0px 21px 0px;
+}
+.slider__PeopleImg {
+  display: block;
+  margin-left: 41%;
+  margin-right: auto;
+  width: 6.5%;
+  margin-bottom: 52px;
+  margin-top: 18px;
+}
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.info__card ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61%;
+  line-height: 17px;
+  padding-left: 22px;
+  color: #FFFFFF;
+}
+
+.info__card h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100%;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.info-list {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rum__card {
+  position: relative;
+  margin: 5px;
+  width: 48.7%;
+}
+.rum__card img {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.info__card {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.3);
+}
+.info__card button {
+  width: 100px;
+  margin: 0% 0% 2% 38%;
+  height: 30px;
+  background: #FFB23F;
+  border-radius: 15px;
+  color: #FFFFFF;
+}
+
+*, *:before, *:after {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+/* Лента слайдов */
+.slick-track {
+  margin-left: 6%;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+.slick-slider .slick-arrow {
+  position: absolute;
+  top: 55%;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-slider .slick-arrow.slick-next {
+  right: 40%;
+  background: url("../img/Home/btnRight.svg") 0 0/30% no-repeat;
+}
+
+.slick-slider .slick-arrow.slick-prev {
+  left: 43.5%;
+  background: url("../img/Home/btnLeft.svg") 0 0/30% no-repeat;
+}
+
+.container__Slick div {
+  display: flex;
+  flex-direction: column;
+}
+.container__Slick div img {
+  position: relative;
+}
+.container__Slick div p {
+  position: absolute;
+  top: 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  max-width: 680px;
+  padding: 10px 29px 0px 37px;
+  color: #FFFFFF;
+}
+.container__Slick div h1 {
+  position: absolute;
+  top: 43px;
+  margin-left: 332px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.container__Gmail img, .container__street img, .container__Countri img, .container__Phone img {
+  width: 10px;
+  margin-right: -10px;
+}
+
+.footer {
+  width: 100%;
+  background: #777777;
+}
+.footer__Widch {
+  max-width: 800px;
+  margin: 0px auto;
+  height: 210px;
+  padding: 34px 43px 0px 63px;
+}
+.footer__Contact p {
+  padding-left: 15px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.container__Phone {
+  display: flex;
+}
+.container__Countri {
+  display: flex;
+}
+.container__street {
+  display: flex;
+}
+.container__Gmail {
+  display: flex;
+}
+.textStyle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.linkStyle {
+  text-decoration: underline;
+}
+
+.social__img a img {
+  width: 16px;
+  margin: 10px 7px 0px 0px;
+}
+.logo {
+  background-color: #626262;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.logo__Style {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #FFFFFF;
+}
+
+.regulations__title, .service__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.regulations h1, .th {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 10px;
+}
+
+.regulations h1 span, .td {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+}
+
+.container__Width {
+  height: 100%;
+  max-width: 800px;
+  margin: 0px auto;
+}
+.selection__Stage img {
+  width: 800px;
+  margin: 50px 0px 50px 0px;
+}
+
+.info_rooms {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+}
+
+.service {
+  background: #3F8CFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  width: 50%;
+  height: 100%;
+  padding: 37px 28px 60px 28px;
+}
+.service__title {
+  color: white;
+  margin-bottom: 18px;
+}
+.service__info {
+  display: flex;
+}
+
+.table {
+  text-align: left;
+}
+
+.tr {
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.th {
+  width: 100px;
+  font-weight: 500;
+  color: white;
+}
+
+.td {
+  padding-top: 2px;
+  width: 230px;
+  color: white;
+}
+
+.regulations {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding: 28px;
+  margin-top: 43px;
+  width: 50%;
+  margin-left: -35px;
+}
+.regulations h1 {
+  font-weight: 600;
+}
+.regulations h1 span {
+  font-size: 8px;
+}
+.regulations__title {
+  margin-bottom: 15px;
+}
+.regulations__flex {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.info__dayDeparture, .info__dayEntry, .info_human, .info__day {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container__WidthInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 81px;
+  margin: 6px 0px 27px 0px;
+  padding: 0px 14px 0px 18px;
+  background: #FFB23F;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+.container__info {
+  display: flex;
+  align-items: center;
+}
+
+.info__day {
+  width: 105px;
+}
+.info_human {
+  width: 110px;
+}
+.info__dayEntry {
+  width: 105px;
+}
+.info__dayDeparture {
+  width: 75px;
+}
+
+.infoReserve__button {
+  width: 199px;
+  height: 26px;
+  background: #FFB23F;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.imgIcon {
+  width: 14px;
+}
+
+.imgIcon1 {
+  width: 18px;
+}
+
+.imgLine {
+  height: 54px;
+}
+
+.text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.coupon__widch {
+  background: #C4C4C4;
+  width: 660px;
+  height: 35px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.coupon__Input {
+  background-color: #F8F8F8;
+  color: #C4C4C4;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 4px 0px 0px 4px;
+  width: 185px;
+  padding-left: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+}
+.coupon__button {
+  background: #3F8CFF;
+  border-radius: 0px 4px 3px 0px;
+  width: 120px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.flex__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  color: #585858;
+}
+
+.flex__info, .room__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #878787;
+  line-height: 13px;
+}
+
+.nutrition__button, .notNutrition__button {
+  width: 119px;
+  height: 25px;
+  background: #3F8CFF;
+  box-shadow: 0px 2px 20px rgba(63, 140, 255, 0.5);
+  border-radius: 6px;
+  margin-top: 1px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.nutrition__pay, .notNutrition__pay {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFB23F;
+}
+
+.reserveCard__container {
+  display: flex;
+  max-width: 660px;
+  margin: 0px auto;
+  margin-top: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  padding: 10px;
+  position: relative;
+}
+
+.reserved__info {
+  width: 345px;
+  padding: 0px 10px 0px 10px;
+}
+.reserved__pay {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.reserved__imgPhone {
+  display: none;
+}
+
+.img__photoRoomsPhone {
+  position: relative;
+  width: 187px;
+}
+.img__freeRoomsPhone {
+  position: absolute;
+  margin-top: -25px;
+  background-color: #FFB23F;
+  width: 187px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #FFFFFF;
+  line-height: 13px;
+}
+
+.img__photoRooms {
+  position: relative;
+  width: 187px;
+}
+.img__freeRooms {
+  position: absolute;
+  margin-top: -44px;
+  background-color: #FFB23F;
+  width: 187px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #FFFFFF;
+  line-height: 13px;
+}
+
+.info__taitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.info__room {
+  width: 275px;
+  margin-bottom: 10px;
+}
+.info__calendarPhonePhone {
+  display: none;
+}
+
+.calendar__buttonCalendar {
+  border: 1.5px solid #3F8CFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: white;
+  margin-right: 10px;
+  width: 83px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #3F8CFF;
+  line-height: 13px;
+}
+.calendar__pricesButton {
+  background: #FFB23F;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 83px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: white;
+  line-height: 13px;
+}
+.calendar__pricesButtonPhone {
+  border: 1.5px solid #3F8CFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: white;
+  margin-right: 10px;
+  width: 83px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #3F8CFF;
+  line-height: 13px;
+}
+
+.taitle__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #585858;
+}
+.taitle__img {
+  width: 20px;
+}
+
+.room__title {
+  margin-bottom: 5px;
+}
+.notNutrition__texts {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  color: #878787;
+  line-height: 13px;
+}
+.nutrition__texts {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  color: #878787;
+  line-height: 13px;
+}
+hr {
+  border: none;
+  height: 1px;
+  background: #3F8CFF;
+  margin: 10px 0px 10px 0px;
+}
+
+.ReservCradsPraice__flex {
+  display: flex;
+  justify-content: center;
+  max-width: 630px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  padding: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  z-index: 10;
+}
+.ReservCradsPraice__flexPhone {
+  display: none;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+@media (max-width: 767px) {
+  .info-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .containerNAv__footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+  }
+
+  .footer__Logo p {
+    display: block;
+  }
+
+  .footer__Nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 62px;
+    left: -105%;
+    z-index: 101;
+    width: 100%;
+    height: 200px;
+    padding-top: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: left 0.3s ease 0s;
+  }
+
+  .footer__Nav._active {
+    left: 0;
+  }
+
+  .footer__Nav .Nav__A {
+    font-size: 13px;
+    line-height: 0px;
+  }
+
+  .footer__social,
+.containerNav__header {
+    display: none;
+  }
+
+  .footer__Widch {
+    height: auto;
+  }
+  .footer__Maps {
+    display: none;
+  }
+  .footer__Contact p {
+    padding: 0px;
+  }
+  .footer__Info {
+    margin: 10px 0px 20px 0px;
+  }
+  .footer__weather {
+    display: none;
+  }
+
+  .Nav__link hr {
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 7px;
+  }
+
+  .container__Phone {
+    display: block;
+  }
+  .container__Countri {
+    display: block;
+  }
+  .container__street {
+    display: block;
+  }
+  .container__Gmail {
+    display: block;
+  }
+
+  .textStyle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .logo__Style {
+    font-size: 13px;
+  }
+
+  .container__Gmail img,
+.container__street img,
+.container__Countri img,
+.container__Phone img {
+    display: none;
+  }
+
+  .containerNav__burger {
+    z-index: 5;
+    display: block;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  .containerNav__burger span,
+.containerNav__burger::before,
+.containerNav__burger::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    background-color: black;
+  }
+
+  .containerNav__burger::before,
+.containerNav__burger::after {
+    content: "";
+  }
+
+  .containerNav__burger::before {
+    top: 0;
+  }
+
+  .containerNav__burger::after {
+    bottom: 0;
+  }
+
+  .containerNav__burger span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+
+  .containerNav__burger._active span {
+    transform: scale(0) translate(0px, -50%);
+  }
+
+  .containerNav__burger._active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+  }
+
+  .containerNav__burger._active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
+  }
+}
+@media (max-width: 650px) {
+  .container__WidthInfo {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    margin: 0px 0px 27px 0px;
+  }
+
+  .container__info {
+    max-width: 210px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .serch__get input {
+    width: 82px;
+    font-size: 5px;
+  }
+  .serch__set input {
+    width: 82px;
+    font-size: 5px;
+  }
+  .serch__pipl input {
+    width: 82px;
+    font-size: 5px;
+  }
+
+  .Covid__Flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Covid__Img {
+    border-radius: 100px;
+  }
+  .info-list {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container__Slick div p {
+    position: absolute;
+    top: 0px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 19px;
+    text-align: center;
+    max-width: 555px;
+    padding: 5px 30px 0px 30px;
+    color: #FFFFFF;
+  }
+
+  .container__Slick div h1 {
+    position: absolute;
+    top: 43px;
+    /* margin-left: 260px; */
+    margin: -10px 260px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+
+  .slick-slider .slick-arrow.slick-next {
+    right: 39%;
+  }
+}
+@media (max-width: 480px) {
+  .container__Serch img {
+    display: none;
+  }
+
+  .serch__widch {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    background: #F9F9F9;
+    padding: 34px 20px 24px 20px;
+    box-shadow: none;
+  }
+  .serch__widch button {
+    width: 129px;
+    height: 37px;
+  }
+  .serch__widch button p {
+    font-size: 12px;
+  }
+  .serch__get P {
+    font-size: 15px;
+    color: #777777;
+  }
+  .serch__get input {
+    width: 246px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .serch__set P {
+    font-size: 15px;
+    color: #777777;
+  }
+  .serch__set input {
+    width: 246px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .serch__pipl P {
+    font-size: 15px;
+    color: #777777;
+  }
+  .serch__pipl input {
+    width: 246px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  /* Slider We Rooms */
+  .our__Rooms {
+    display: none;
+  }
+
+  .media__rooms {
+    display: block;
+  }
+
+  .rooms__titles {
+    display: block;
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37px;
+  }
+
+  .rum__card {
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+  .rum__card img {
+    border-radius: 6px 6px 0px 0px;
+    width: 87.5%;
+  }
+
+  .info__card {
+    position: relative;
+    width: 87.5%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 6px 6px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+  }
+  .info__card h2 {
+    color: #585858;
+    text-align: left;
+    padding-left: 22px;
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .info__card ul li {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #585858;
+  }
+  .info__card button {
+    margin-left: 35%;
+  }
+
+  .slick-slider .slick-arrow.slick-prev {
+    display: none !important;
+  }
+
+  .slick-slider .slick-arrow.slick-next {
+    display: none !important;
+  }
+
+  /* ГОСТЕВОЙ ДОМ  */
+  .info__Covid {
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 10px;
+  }
+
+  .Covid__title {
+    margin: 0px 0px 15px 0px;
+  }
+  .Covid__info {
+    text-align: center;
+  }
+  .Covid__Img {
+    content: none;
+    width: 151px;
+    height: 150px;
+    background: url("~@/assets/img/Home/Valentina.jpg");
+  }
+
+  .container__Slick div p {
+    font-size: 15px;
+    line-height: 12px;
+    text-align: center;
+    max-width: 362px;
+    padding: 50px 13px 0px 28px;
+  }
+
+  .container__Slick div h1 {
+    margin: -21px 157px;
+    font-size: 25px;
+    top: 122px;
+  }
+
+  .imgBack {
+    background: url("~@/assets/img/Home/backGrouMessegMedia.jpg") !important;
+    width: 90.5% !important;
+    height: 175px !important;
+    content: none !important;
+  }
+
+  .slider__PeopleImg {
+    margin-left: 39%;
+    width: 12.5% !important;
+    margin-bottom: 52px;
+    margin-top: 0px;
+  }
+}
+@media (min-width: 415px) {
+  .info__card button {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .selection__Stage {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .info__dayDeparture,
+.info__dayEntry,
+.info_human,
+.info__day {
+    width: 105px;
+  }
+
+  .imgLine {
+    display: none;
+  }
+
+  .infoReserve__button {
+    margin: 10px;
+  }
+
+  .coupon__widch {
+    width: auto;
+    height: auto;
+  }
+
+  .coupon__backgraund {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coupon__Input {
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+
+  .coupon__button {
+    margin: 0px 0px 10px 0px;
+    box-shadow: 0px 0px 16px rgba(63, 140, 255, 0.5);
+    border-radius: 6px;
+  }
+}
+@media (max-width: 480px) {
+  .reserve {
+    padding: 10px;
+  }
+
+  .reserveCard__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .reserved__img {
+    display: none;
+  }
+  .reserved__imgPhone {
+    display: block;
+  }
+  .reserved__info {
+    width: 100%;
+    text-align: center;
+  }
+  .reserved__pay {
+    display: none;
+  }
+
+  .img__photoRoomsPhone {
+    width: 100%;
+  }
+  .img__freeRoomsPhone {
+    width: 100%;
+  }
+
+  .info__taitle {
+    display: flex;
+    justify-content: center;
+  }
+  .info__room {
+    width: 100%;
+  }
+  .info__calendar {
+    display: none;
+  }
+  .info__calendarPhonePhone {
+    display: block;
+  }
+
+  .taitle__img {
+    display: none;
+  }
+
+  .room__flex {
+    display: none;
+  }
+
+  .calendar__pricesButtonPhone {
+    margin: 10px;
+  }
+
+  .ReservCradsPraice__flexPhone {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pay__notNutritionList {
+    margin-left: -45px !important;
+  }
+
+  .info_rooms {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .service {
+    width: auto;
+    padding: 37px 11px 60px 11px;
+  }
+  .service__title {
+    text-align: center;
+  }
+  .th {
+    width: 130px;
+    font-size: 12px;
+  }
+
+  .td {
+    width: auto;
+    font-size: 10px;
+  }
+
+  .regulations {
+    margin: auto;
+    width: auto;
+  }
+  .regulations h1 {
+    font-size: 12px;
+  }
+  .regulations h1 span {
+    font-size: 12px;
+  }
+  .regulations__title {
+    text-align: center;
+  }
+}

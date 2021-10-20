@@ -1,0 +1,514 @@
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+@media (max-width: 767px) {
+    .info-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    ////////////////Footer////////////////////////
+    .containerNAv__footer {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px 5px 0px;
+    }
+    .footer__Logo{
+        p{
+            display: block;
+        }
+    }
+    .footer__Nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 62px;
+        left: -105%;
+        z-index: 101;
+        width: 100%;
+        height: 200px;
+        padding-top: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0,  0.25);
+        transition: left 0.3s ease 0s;
+        
+    }
+    .footer__Nav._active{
+        left: 0;
+    }
+    .footer__Nav .Nav__A {
+        font-size: 13px;
+        line-height: 0px;
+    }
+    .footer__social,
+    .containerNav__header{
+            display: none;
+        }
+  .footer {
+
+    &__Widch {
+        height: auto;
+    }
+
+    &__Maps {
+        display: none;
+    }
+
+    &__Contact {
+        p{
+            padding: 0px;
+        }
+    }
+    &__Info {
+        margin: 10px 0px 20px 0px ;
+    }
+
+    &__weather {
+        display: none;
+    }
+}
+.Nav__link{
+    hr{
+        display: block;
+    }
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 7px;
+}
+.container {
+
+    &__Phone {
+        display: block;
+    }
+
+    &__Countri {
+        display: block;
+    }
+
+    &__street {
+        display: block;
+    }
+
+    &__Gmail {
+        display: block;
+    }
+}
+.textStyle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.logo {
+
+    &__Style {
+        font-size: 13px;
+    }
+}
+.container__Gmail img, 
+.container__street img, 
+.container__Countri img, 
+.container__Phone img {
+   display: none;
+}
+//////////////////Burger///////////////////////
+.containerNav__burger{
+    z-index: 5;
+    display: block;
+    position: absolute;
+    top: 20px;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.containerNav__burger span,
+.containerNav__burger::before,
+.containerNav__burger::after{
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    background-color: black;
+}
+.containerNav__burger::before,
+.containerNav__burger::after{
+    content: "";
+}
+.containerNav__burger::before{
+    top: 0;
+}
+.containerNav__burger::after{
+    bottom: 0;
+}
+.containerNav__burger span{
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+}
+
+.containerNav__burger._active span{
+    transform: scale(0) translate(0px, -50%);
+} 
+.containerNav__burger._active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+}
+.containerNav__burger._active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
+}
+///////////////////////////////////////////////
+
+}
+
+@media(max-width: 650px) {
+
+    .container__WidthInfo{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+        margin: 0px 0px 27px 0px;
+    }
+    .container__info{
+        max-width: 210px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .serch {
+            &__get {
+                input{
+                    width: 82px;
+                    font-size: 5px;
+                   
+                }
+            }
+    
+            &__set {
+                input{
+                    width: 82px;
+                    font-size: 5px;
+                   
+                }
+            }
+    
+            &__pipl {
+                input{
+                    width: 82px;
+                    font-size: 5px;
+                   
+                }
+            }
+    }
+    
+    .Covid {
+            &__Flex {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+    
+            }
+    
+            &__Img {
+                border-radius: 100px;
+            }
+    
+            &__info {
+            }
+    }
+    
+    /////////////////////infoList//////////////////////////////
+    
+    .info-list{
+        max-width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    ///////////////////////////////////////////////////////////
+    
+    
+    /////////////////////Slider////////////////////////////////
+    
+    .container__Slick div p {
+        position: absolute;
+        top: 0px;
+        font-family: "Montserrat";  
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 19px;
+        text-align: center;
+        max-width: 555px;
+        padding: 5px 30px 0px 30px;
+        color: #FFFFFF;
+    }
+    
+    .container__Slick div h1 {
+        position: absolute;
+        top: 43px;
+        /* margin-left: 260px; */
+        margin: -10px 260px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    .slick-slider .slick-arrow.slick-next {
+        right: 39%;
+    }
+    
+    }
+
+@media (max-width: 480px) {
+    /////////////////Serch///////////////////////
+     
+    .container__Serch img {
+        display: none;
+    }
+
+    .serch {
+        &__widch {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: auto;
+            background: #F9F9F9;
+            padding: 34px 20px 24px 20px;
+            box-shadow:none;
+                button{
+                    width: 129px;
+                    height: 37px;
+                    p{
+                      font-size: 12px;
+                    }
+                }
+            
+            
+        }
+        &__get {
+            P{
+                font-size: 15px;
+                color:#777777;
+            }
+            input{
+                width: 246px;
+                height: 35px;
+                font-size: 12px;
+            
+            }
+        }
+
+        &__set {
+            P{
+                font-size: 15px;
+                color:#777777;
+            }
+            input{
+                width: 246px;
+                height: 35px;
+                font-size: 12px
+            
+            }
+        }
+
+        &__pipl {
+            P{
+                font-size: 15px;
+                color:#777777;
+            }
+            input{
+                width: 246px;
+                height: 35px;
+                font-size: 12px
+            
+            }
+        }
+    }
+    /* Slider We Rooms */
+
+    .our {
+
+        &__Rooms {
+            display: none;
+        }
+    }
+    .media {
+
+        &__rooms {
+            display: block;
+        }
+    }
+    .rooms {
+
+        &__titles {
+            display: block;
+            text-align: center;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 37px;
+        }
+    }
+
+.rum {
+
+    &__card {
+        margin: 0px;
+        padding-bottom: 30px;
+        
+        img{
+            border-radius: 6px 6px 0px 0px;
+            width: 87.5%;
+
+        }
+    }
+}
+.info {
+
+    &__card {
+        position: relative; 
+        width: 87.5%;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 0px 0px 6px 6px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0,  0.25);
+        h2{
+           color: #585858;
+           text-align: left;
+           padding-left: 22px;
+           font-size: 19px;
+           line-height: 24px;
+        }
+        ul{
+            li{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                color: #585858;
+            }
+        }   
+        button{
+            margin-left: 35%;
+        } 
+    }
+}
+    .info__card {
+        
+    }
+    .slick-slider .slick-arrow.slick-prev{
+        display: none !important;
+    }
+
+    .slick-slider .slick-arrow.slick-next {
+        display: none !important;
+        
+    }
+
+    /* ГОСТЕВОЙ ДОМ  */
+
+    .info {
+
+        &__Covid {
+            background: #FFFFFF;
+            border: 1px solid #D2D2D2;
+            box-sizing: border-box;
+            border-radius: 6px;
+            margin: 10px;
+        }
+}
+.Covid {
+
+        &__title {
+            margin:0px 0px 15px 0px;
+        }
+
+        &__info {
+            text-align: center;
+        }
+        &__Img{
+            content: none;
+            width: 151px;
+            height: 150px;
+            background: url('~@/assets/img/Home/Valentina.jpg');
+        }
+    }
+
+///////////////////Slider comment/////////////////////////////
+
+.slick-initialized .slick-slide{
+    // width: 395px;
+}
+.container__Slick div p{
+    font-size: 15px;
+    line-height: 12px;
+    text-align: center;
+    max-width: 362px;
+    padding: 50px 13px 0px 28px;
+}
+.container__Slick div h1{
+    margin: -21px 157px;
+    font-size: 25px; 
+    top: 122px;
+}
+
+.imgBack{
+    background:url('~@/assets/img/Home/backGrouMessegMedia.jpg') !important;
+    width: 90.5% !important;
+    height: 175px !important;
+    content:none !important;
+  }
+  .slider__PeopleImg {
+    margin-left: 39%;
+    width: 12.5% !important;
+    margin-bottom: 52px;
+    margin-top: 0px;
+  }
+
+
+}
+
+@media(min-width: 415px){
+    .info {
+
+        &__card {
+            button{
+                display: none;
+            }
+        }
+    }
+}

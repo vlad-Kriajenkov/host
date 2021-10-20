@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap");
+.containerNav {
+  width: 100%;
+}
+.containerNav__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conatainer_Width {
+  max-width: 800px;
+  margin: 0px auto;
+  margin-top: 6.5px;
+}
+
+.header__strit {
+  display: flex;
+}
+.header__strit img {
+  width: 11px;
+  margin-right: 9px;
+}
+.header__strit p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 15px;
+}
+.header__info {
+  width: 290px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__gmail {
+  display: flex;
+}
+.header__gmail img {
+  width: 11px;
+  margin-right: 9px;
+}
+.header__gmail a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 15px;
+}
+.header__number {
+  display: flex;
+}
+.header__number img {
+  width: 11px;
+  margin-right: 9px;
+}
+.header__number p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 15px;
+}
+
+.containerNAv__footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  margin-bottom: 7px;
+}
+
+.footer__Logo p {
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+}
+.footer__Nav .Nav__A {
+  margin-right: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 40px;
+}
+.footer__Nav:hover .Nav__A {
+  color: #3F8CFF;
+}
+.footer__social a img {
+  width: 15px;
+  padding-top: 10px;
+  margin-right: 8px;
+}

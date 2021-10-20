@@ -1,0 +1,126 @@
+%imgContact{
+    width: 10px;
+    margin-right: -10px;
+}
+
+
+.footer {
+    width: 100%;
+    background: #777777;
+    &__Widch {
+        max-width: 800px;
+        margin: 0px auto;
+        height: 210px;
+        
+        padding: 34px 43px 0px 63px;
+
+    }
+
+    &__Maps {
+        
+    }
+
+    &__Contact {
+        p{
+            padding-left: 15px;
+        }
+    }
+
+    &__container {
+    }
+
+    &__Info {
+    }
+
+    &__weather {
+    }
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+    
+    // margin-bottom: -2px;
+}
+.container {
+
+    &__Phone {
+        display: flex;
+        img{
+            @extend %imgContact;
+        }
+    }
+
+    &__Countri {
+        display: flex;
+        img{
+            @extend %imgContact;
+        }
+    }
+
+    &__street {
+        display: flex;
+        img{
+            @extend %imgContact;
+        }
+    }
+
+    &__Gmail {
+        display: flex;
+        img{
+            @extend %imgContact;
+        }
+    }
+}
+.textStyle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 16px;
+    color: #FFFFFF
+}
+.linkStyle {
+    text-decoration: underline;
+}
+.social {
+
+    &__img {
+        a{
+            img{
+                width: 16px;
+                margin: 10px 7px 0px 0px;
+            }
+        }
+        
+    }
+.img{
+    &__style{
+        
+    }
+}
+}
+
+.logo {
+    background-color: #626262;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    &__Style {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        
+        color: #FFFFFF
+    }
+}
