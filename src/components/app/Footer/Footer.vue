@@ -11,19 +11,19 @@
                     <p class="title">Контакты</p>
                     <div class=" footer__container">
                         <div class="container__Phone">
-                            <img src="../../assets/img/Footer/phone.svg" alt="phone">
+                            <img src="../../../assets/img/Footer/phone.svg" alt="phone">
                             <p class="textStyle">8 (862) 279-56-89</p>
                         </div>
                         <div class="container__Countri">
-                            <img src="../../assets/img/Footer/countri.svg" alt="countri">
+                            <img src="../../../assets/img/Footer/countri.svg" alt="countri">
                             <p class="textStyle">Абхазия, Цандрыпш</p>
                         </div>
                         <div class="container__street">
-                            <img src="../../assets/img/Footer/street.svg" alt="street">
+                            <img src="../../../assets/img/Footer/street.svg" alt="street">
                             <p class="textStyle">ул.Октябрьская, д.492</p>
                         </div>
                         <div class="container__Gmail">
-                            <img src="../../assets/img/Footer/gmail.svg" alt="gmail ">
+                            <img src="../../../assets/img/Footer/gmail.svg" alt="gmail ">
                             <p class="textStyle">booking@valentinahouse.ru</p>
                         </div>
                     </div>
@@ -42,11 +42,11 @@
                     <p class="title">Погода</p>
                     <a target="_blank" href="https://nochi.com/weather/tsandrypsh-322950"><img src="https://w.bookcdn.com/weather/picture/21_322950_1_20_ecf0f1_250_bdc3c7_9da2a6_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=604&anc_id=91806"  alt="booked.net"/></a>
                     <div class="social__img">
-                        <a href="" class="img__style"><img src="../../assets/img/Footer/facebook.svg" alt="facebook"></a>
-                        <a href="" class="img__style"><img src="../../assets/img/Footer/vk.svg" alt="vk"></a>
-                        <a href="" class="img__style"><img src="../../assets/img/Footer/Instagram.svg" alt="Instagram"></a>
-                        <a href="" class="img__style"><img src="../../assets/img/Footer/telegram.svg" alt="telegram"></a>
-                        <a href="" class="img__style"><img src="../../assets/img/Footer/viber.svg" alt="viber"></a>
+                        <a href="" class="img__style"><img src="../../../assets/img/Footer/facebook.svg" alt="facebook"></a>
+                        <a href="" class="img__style"><img src="../../../assets/img/Footer/vk.svg" alt="vk"></a>
+                        <a href="" class="img__style"><img src="../../../assets/img/Footer/Instagram.svg" alt="Instagram"></a>
+                        <a href="" class="img__style"><img src="../../../assets/img/Footer/telegram.svg" alt="telegram"></a>
+                        <a href="" class="img__style"><img src="../../../assets/img/Footer/viber.svg" alt="viber"></a>
 
                        
                         
@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import GoogleMap from './GoogleMap.vue'
+import GoogleMap from '../GoogleMap.vue'
 export default {
     components: { GoogleMap },
     

@@ -1,11 +1,14 @@
 <template>
     <div class="container__Width" >
-       <router-view></router-view>
+       <router-view
+       :filterChek="filterChek"
+       ></router-view>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'roomsprices'
+    name: 'roomsprices',
+    props:['filterChek']
 }
 </script>

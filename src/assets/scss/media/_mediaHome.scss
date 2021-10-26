@@ -1,14 +1,24 @@
 
 @media (min-width: 1200px) {
-
+    
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .serch__widch{
+        margin-top: 109px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-   
+    .serch__widch{
+        margin-top: 90px;
+        width: 600px;
+    }
+    .info-list{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 767px) {
@@ -204,29 +214,44 @@
 
     }
     .serch {
-            &__get {
+        &__widch{
+            label{
+                width: 82px;
+                font-size: 8px;
                 input{
                     width: 82px;
-                    font-size: 5px;
-                   
                 }
             }
+            button{
+                margin-top: 20px;
+                width: 82px;
+                font-size: 5px;
+            }
+        }
+
+            // &__get {
+            //     input{
+            //         width: 82px;
+            //         font-size: 5px;
+                   
+            //     }
+            // }
     
-            &__set {
-                input{
-                    width: 82px;
-                    font-size: 5px;
+            // &__set {
+            //     input{
+            //         width: 82px;
+            //         font-size: 5px;
                    
-                }
-            }
+            //     }
+            // }
     
-            &__pipl {
-                input{
-                    width: 82px;
-                    font-size: 5px;
+            // &__pipl {
+            //     input{
+            //         width: 82px;
+            //         font-size: 5px;
                    
-                }
-            }
+            //     }
+            // }
     }
     
     .Covid {
@@ -300,62 +325,73 @@
     .serch {
         &__widch {
             margin: 0;
+            position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            width: auto;
+            width: 100%;
             background: #F9F9F9;
             padding: 34px 20px 24px 20px;
             box-shadow:none;
-                button{
+            height: auto;
+
+            label{
+                font-size: 15px;
+                color:#777777;
+                width: 251px;
+                input{
+                    width: 246px;
+                    height: 35px;
+                    font-size: 12px;
+                }
+            }
+                a{
                     width: 129px;
                     height: 37px;
-                    p{
-                      font-size: 12px;
-                    }
+                    font-size: 12px;
                 }
             
             
         }
-        &__get {
-            P{
-                font-size: 15px;
-                color:#777777;
-            }
-            input{
-                width: 246px;
-                height: 35px;
-                font-size: 12px;
+        // &__get {
+        //     P{
+        //         font-size: 15px;
+        //         color:#777777;
+        //     }
+        //     input{
+        //         width: 246px;
+        //         height: 35px;
+        //         font-size: 12px;
             
-            }
-        }
+        //     }
+        // }
 
-        &__set {
-            P{
-                font-size: 15px;
-                color:#777777;
-            }
-            input{
-                width: 246px;
-                height: 35px;
-                font-size: 12px
+        // &__set {
+        //     P{
+        //         font-size: 15px;
+        //         color:#777777;
+        //     }
+        //     input{
+        //         width: 246px;
+        //         height: 35px;
+        //         font-size: 12px
             
-            }
-        }
+        //     }
+        // }
 
-        &__pipl {
-            P{
-                font-size: 15px;
-                color:#777777;
-            }
-            input{
-                width: 246px;
-                height: 35px;
-                font-size: 12px
+        // &__pipl {
+        //     P{
+        //         font-size: 15px;
+        //         color:#777777;
+        //     }
+        //     input{
+        //         width: 246px;
+        //         height: 35px;
+        //         font-size: 12px
             
-            }
-        }
+        //     }
+        // }
     }
     /* Slider We Rooms */
 

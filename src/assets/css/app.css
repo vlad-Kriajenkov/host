@@ -98,7 +98,7 @@
   margin-right: 8px;
 }
 
-.serch__pipl input, .serch__set input, .serch__get input {
+.serch__pipl input, .serch__set input, .serch__get input, .serch__widch label input {
   border: 1px solid #cccccc;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -118,13 +118,14 @@
   flex-direction: column;
 }
 
-.serch__pipl p, .serch__set p, .serch__get p {
+.serch__pipl label, .serch__set label, .serch__get label, .serch__widch label {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
   line-height: 21px;
   color: #585858;
+  width: 150px;
 }
 
 .serch__pipl, .serch__set, .serch__get {
@@ -143,8 +144,14 @@
 .container {
   max-width: 100%;
 }
+.container__Serch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .container__Serch img {
   max-width: 100%;
+  height: auto;
 }
 
 .img__vector {
@@ -162,10 +169,10 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: relative;
-  margin: -23% 0% 23% 19%;
-  width: 62%;
-  height: 18.5%;
+  position: absolute;
+  margin-top: 205px;
+  width: 800px;
+  height: 70px;
   background: #FFFFFF;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
   z-index: 100;
@@ -173,18 +180,19 @@
 .serch__widch button {
   width: 83px;
   height: 22px;
+  margin-top: 20px;
   background: #3F8CFF;
   box-shadow: 0px 2px 20px rgba(63, 140, 255, 0.5);
   border-radius: 6px;
-  margin-top: 1px;
-}
-.serch__widch button p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 8px;
   line-height: 17px;
   color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .max_width {
   max-width: 800px;
@@ -346,6 +354,7 @@ h1, h2, h3, h4, h5, h6 {
 .rum__card img {
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
   width: 100%;
+  height: auto;
 }
 
 .info__card {
@@ -945,6 +954,424 @@ hr {
   opacity: 0;
 }
 
+.title__textImgStepСonfirmation, .title__textImgStepBooking, .title__textImgStepNum {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.titleFinal__widthText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+
+.infoPay__textPrice, .infoPay__textRum {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.bodyFinal__Price, .bodyFinal__Name, .bodyFinal__emptiness {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 17px;
+  color: #000000;
+  background: #FFFFFF;
+  text-align: left;
+  width: 175px;
+}
+
+.Booking__WidthContainer {
+  width: 525px;
+}
+.Booking__imgStep {
+  width: 100%;
+  margin: 50px 0px 9px 0px;
+}
+.Booking__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 66px;
+  border: 1px solid #C4C4C4;
+}
+.ButtonPhonePosition {
+  position: absolute;
+  display: none;
+}
+
+.ButtonPhoneBack {
+  background: url("../img/Booking&Payment/buttonBack.svg") no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.InfoPayContainer__widthCon {
+  width: 525px;
+}
+
+.imgStep__title {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+
+.title__textImgStepNum {
+  color: #3F8CFF;
+  margin-left: 2px;
+}
+.title__textImgStepBooking {
+  color: #3F8CFF;
+  margin-left: 23px;
+}
+.title__textImgStepСonfirmation {
+  color: #C4C4C4;
+}
+.title__textTitleform {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.title__textImgStep {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3F8CFF;
+}
+
+.form__title {
+  background: #FFB23F;
+  width: 100%;
+  padding: 8px;
+}
+
+.GestContainer__infoPay_flex {
+  margin: 24px;
+}
+.GestContainer__selectRoomInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 29px 0px 10px 0px;
+}
+.GestContainer__InfoGest {
+  margin: 26px 0px 10px 0px;
+}
+.GestContainer__InfoPayContainer {
+  background: #F9F9F9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.infoPay__textRum {
+  color: #585858;
+}
+.infoPay__textPrice {
+  color: #FFB23F;
+}
+
+.selectRoomInfo__numRooms {
+  width: 32.5%;
+  height: 25px;
+  border: 1px solid #C4C4C4;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #C4C4C4;
+  padding-left: 4px;
+}
+
+.InfoGest__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #585858;
+  margin: 0px 0px 5px 0px;
+}
+.InfoGestForm__Flex {
+  display: flex;
+  justify-content: space-between;
+}
+.InfoGestForm__general {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.InfoGestForm__particular {
+  width: 66%;
+}
+.InfoGestForm__ButtonSub {
+  margin-bottom: 20px;
+}
+
+#generalInp {
+  margin-bottom: 8px;
+  width: 104%;
+  height: 25px;
+  border: 1px solid #D9D9D9;
+}
+
+#generalInp::-moz-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #C4C4C4;
+  padding-left: 4px;
+}
+
+#generalInp:-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #C4C4C4;
+  padding-left: 4px;
+}
+
+#generalInp::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #C4C4C4;
+  padding-left: 4px;
+}
+
+.generalParticular {
+  width: 100%;
+  height: 97%;
+  border: 1px solid #D9D9D9;
+  resize: none;
+}
+
+.generalParticular::-moz-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #C4C4C4;
+  padding-left: 4px;
+}
+
+.generalParticular:-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #C4C4C4;
+  padding-left: 4px;
+}
+
+.generalParticular::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #C4C4C4;
+  padding-left: 4px;
+}
+
+.ButtonSub__ButtonSt {
+  border: 1.5px solid #3F8CFF;
+  box-sizing: border-box;
+  background-color: #3F8CFF;
+  border-radius: 8px;
+  margin-bottom: 9px;
+  width: 120px;
+  height: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.ButtonSub__Text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 9px;
+  text-align: center;
+  color: #ABABAB;
+}
+
+.LabelText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #585858;
+  display: flex;
+  align-items: center;
+}
+
+/*   Сведение об оплате, Form Pay   */
+.InfoPay__title {
+  margin: 6px 0px 18px 0px;
+}
+.InfoPay__infoGeneral {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infoGeneral__box {
+  width: 175px;
+  margin-bottom: 10px;
+}
+
+.titleText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #585858;
+}
+
+.infoGeneral__ConteinerGeneral {
+  width: 190px;
+  text-align: left;
+}
+
+.ConteinerGeneral__name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #777777;
+  text-align: left;
+}
+.ConteinerGeneral__body {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  color: #777777;
+  text-align: left;
+}
+
+.FinalPayInfo__titleFinal {
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 32px;
+  color: #FFFFFF;
+  background: #FFB23F;
+  text-align: left;
+}
+.FinalPayInfo__bodyFinal {
+  display: flex;
+}
+
+.bodyFinal__flex {
+  display: flex;
+}
+.titleFinal__widthText {
+  width: 175px;
+}
+
+.CheckRules__RulesBooking {
+  display: flex;
+  margin: 17px 0px 10px 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 15px;
+  text-align: center;
+  color: #777777;
+}
+
+.buttonRulesBooking__Text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 9px;
+  text-align: center;
+  color: #B0B0B0;
+  width: 379px;
+  margin: 0px auto;
+}
+
+#buttonRulesBooking {
+  border: 1.5px solid #3F8CFF;
+  box-sizing: border-box;
+  background-color: #3F8CFF;
+  border-radius: 8px;
+  margin: 8px;
+  width: 120px;
+  height: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+#bodyPadingtd {
+  padding-bottom: 2px;
+}
+
+#LinkRulesBooking {
+  color: #777777;
+  margin: 0px 3px 0px 3px;
+  text-decoration: underline;
+}
+
+#CheckBoxRulesBooking {
+  margin-right: 3px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .serch__widch {
+    margin-top: 109px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .serch__widch {
+    margin-top: 90px;
+    width: 600px;
+  }
+
+  .info-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 @media (max-width: 767px) {
   .info-list {
     display: flex;
@@ -1130,15 +1557,15 @@ hr {
     flex-wrap: wrap;
   }
 
-  .serch__get input {
+  .serch__widch label {
     width: 82px;
-    font-size: 5px;
+    font-size: 8px;
   }
-  .serch__set input {
+  .serch__widch label input {
     width: 82px;
-    font-size: 5px;
   }
-  .serch__pipl input {
+  .serch__widch button {
+    margin-top: 20px;
     width: 82px;
     font-size: 5px;
   }
@@ -1196,47 +1623,30 @@ hr {
 
   .serch__widch {
     margin: 0;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: auto;
+    width: 100%;
     background: #F9F9F9;
     padding: 34px 20px 24px 20px;
     box-shadow: none;
+    height: auto;
   }
-  .serch__widch button {
+  .serch__widch label {
+    font-size: 15px;
+    color: #777777;
+    width: 251px;
+  }
+  .serch__widch label input {
+    width: 246px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .serch__widch a {
     width: 129px;
     height: 37px;
-  }
-  .serch__widch button p {
-    font-size: 12px;
-  }
-  .serch__get P {
-    font-size: 15px;
-    color: #777777;
-  }
-  .serch__get input {
-    width: 246px;
-    height: 35px;
-    font-size: 12px;
-  }
-  .serch__set P {
-    font-size: 15px;
-    color: #777777;
-  }
-  .serch__set input {
-    width: 246px;
-    height: 35px;
-    font-size: 12px;
-  }
-  .serch__pipl P {
-    font-size: 15px;
-    color: #777777;
-  }
-  .serch__pipl input {
-    width: 246px;
-    height: 35px;
     font-size: 12px;
   }
 
@@ -1504,5 +1914,205 @@ hr {
   }
   .regulations__title {
     text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .Booking__imgStep {
+    display: none;
+  }
+
+  .imgStep__title {
+    display: none;
+  }
+
+  .form__title {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .footer {
+    display: none;
+  }
+
+  .Booking__form {
+    border: none;
+  }
+  .Booking__WidthContainer {
+    width: 100%;
+  }
+
+  .GestContainer__selectRoomInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    padding: 10px 0px 10px 0px;
+  }
+  .ButtonPhonePosition {
+    display: block;
+  }
+
+  .infoPay__textRum {
+    font-size: 18px;
+  }
+  .infoPay__textPrice {
+    font-size: 18px;
+  }
+
+  .selectRoomInfo__numRooms {
+    width: 63%;
+    height: 36px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    filter: none;
+  }
+
+  .InfoGest__title {
+    font-size: 18px;
+  }
+  .InfoGest__InfoGestForm {
+    margin: 18px;
+  }
+
+  .InfoGestForm__Flex {
+    display: flex;
+    flex-direction: column;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: 18px;
+  }
+  .InfoGestForm__general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .InfoGestForm__particular {
+    width: auto;
+  }
+  #generalInp {
+    width: 75%;
+    height: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #generalInp::-moz-placeholder {
+    font-size: 14px;
+  }
+
+  #generalInp:-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  #generalInp::placeholder {
+    font-size: 14px;
+  }
+
+  .LabelText {
+    margin-left: 18px;
+  }
+
+  .generalParticular {
+    width: 75%;
+    height: 200px;
+    margin-bottom: 13px;
+  }
+
+  .generalParticular::-moz-placeholder {
+    font-size: 14px;
+  }
+
+  .generalParticular:-ms-input-placeholder {
+    font-size: 14px;
+  }
+
+  .generalParticular::placeholder {
+    font-size: 14px;
+  }
+
+  .ButtonSub__ButtonSt {
+    margin: 23px 0px 8px 0px;
+  }
+  .InfoPay__InfoAllReserve {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: 17px;
+  }
+  .InfoPay__infoGeneral {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .infoGeneral__box {
+    width: auto;
+  }
+
+  .titleText {
+    font-size: 18px;
+  }
+
+  .ConteinerGeneral__name {
+    font-size: 14px;
+  }
+  .ConteinerGeneral__body {
+    font-size: 14px;
+  }
+
+  .FinalPayInfo__titleFinal {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding: 5px;
+  }
+  .FinalPayInfo__bodyFinal {
+    display: block;
+  }
+  .titleFinal__widthText {
+    width: 50%;
+    font-size: 16px;
+  }
+
+  .widthTextpositionRight {
+    text-align: right;
+  }
+
+  .bodyFinal__flexConatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .bodyFinal__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .bodyFinal__emptiness {
+    width: auto;
+  }
+  .bodyFinal__Name {
+    font-size: 14px;
+    width: auto;
+  }
+  .bodyFinal__Price {
+    font-weight: 600;
+    font-size: 16px;
+    width: auto;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .CheckRules__RulesBooking {
+    margin-left: 17px;
+  }
+
+  .buttonRulesBooking__Text {
+    margin-bottom: 10px;
+    width: auto;
   }
 }

@@ -1,7 +1,7 @@
 <template>
     <div class="container__Width" >
         <div class="selection__Stage">
-            <img src="../../assets/img/Rooms&Prices/Reserve/reserveLine.svg" alt="Fiil Line">
+            <img src="../assets/img/Rooms&Prices/FillLine.svg" alt="Fiil Line">
         </div>
         <div class="container__reservations">
             <info-reserva/>
@@ -14,8 +14,8 @@
 
 <script>
 
-import InfoReserva from '../../components/app/InfoReserva.vue'
-import ReservCardList from './ReservCardsList.vue'
+import InfoReserva from '../components/app/Rooms/InfoReserv/InfoReserva'
+import ReservCardList from '../components/app/Rooms/ReservCards/ReservCardsList.vue'
 export default {
   components: { InfoReserva, ReservCardList },
     name: 'Reserve'

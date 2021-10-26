@@ -5,25 +5,25 @@
             <div class="imgBack"></div>
             <p>{{messeg.messeg1}}</p>
             <h1>{{messeg.name}}</h1>
-            <img class="slider__PeopleImg" src="../../assets/img/Home/ImgPeople.svg" alt="">
+            <img class="slider__PeopleImg" src="../../../assets/img/Home/ImgPeople.svg" alt="">
       </div>
       <div>
             <div class="imgBack"></div>
             <p>{{messeg.messeg1}}</p>
             <h1>{{messeg.name}}</h1>
-            <img class="slider__PeopleImg" src="../../assets/img/Home/ImgPeople.svg" alt="">
+            <img class="slider__PeopleImg" src="../../../assets/img/Home/ImgPeople.svg" alt="">
         </div>
         <div>
             <div class="imgBack"></div>
             <p>{{messeg.messeg1}}</p> 
             <h1>{{messeg.name}}</h1>
-            <img class="slider__PeopleImg" src="../../assets/img/Home/ImgPeople.svg" alt="">
+            <img class="slider__PeopleImg" src="../../../assets/img/Home/ImgPeople.svg" alt="">
         </div>
         <div>
             <div class="imgBack"></div>
             <p>{{messeg.messeg1}}</p>
             <h1>{{messeg.name}}</h1>
-            <img class="slider__PeopleImg" src="../../assets/img/Home/ImgPeople.svg" alt="">
+            <img class="slider__PeopleImg" src="../../../assets/img/Home/ImgPeople.svg" alt="">
         </div>
     </VueSlickCarousel>
   </div>
@@ -32,15 +32,12 @@
 <script>
   import VueSlickCarousel from 'vue-slick-carousel'
   import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-  // optional style for arrows & dots
-//   import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
- 
+
   export default {
     name: 'MyComponent',
     components: { VueSlickCarousel },
     data() {
         return {
-            // image: require('/src/assets/img/Home/backGrouMesseg.svg'),
             settings:{
                 "dots": false,
                 "dotsClass": "slick-dots custom-dot-class",
@@ -61,7 +58,7 @@
 
 <style scoped>
 .imgBack{
-  content:url('../../assets/img/Home/backGrouMesseg.svg');
+  content:url('../../../assets/img/Home/backGrouMesseg.svg');
   width: 87.5%;
 }
 </style>

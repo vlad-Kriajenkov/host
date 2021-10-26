@@ -21,7 +21,7 @@
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-import InfoCards from '../../components/app/InfoCards.vue'
+import InfoCards from '../InfoCards'
 
 export default {
     name:"SliderCardsMedia",
@@ -39,7 +39,7 @@ export default {
             },
               products: [
                 {
-                    imgUrl: require('../../assets/img/Cards-Rooms/doubleRoom.jpg'),
+                    imgUrl: require('../../../assets/img/Cards-Rooms/doubleRoom.jpg'),
                     title: '2-x местный',
                     info1: '-Площадь номера: 11 м2',
                     info2: '-1 двуспальная кровать или 2 односпальные кровати',
@@ -48,7 +48,7 @@ export default {
                     info5: '-Телевизор',
                 },  
                 {
-                    imgUrl: require('../../assets/img/Cards-Rooms/Famaly.svg'),
+                    imgUrl: require('../../../assets/img/Cards-Rooms/Famaly.svg'),
                     title: 'Семейный',
                     info1: '-Площадь номера: 18 м2',
                     info2: '-1 двуспальная кровать или 1 односпальная кровать',
@@ -57,7 +57,7 @@ export default {
                     info5: '-Телевизор',
                 },  
                 {
-                    imgUrl: require('../../assets/img/Cards-Rooms/delux.svg'),
+                    imgUrl: require('../../../assets/img/Cards-Rooms/delux.svg'),
                     title: 'Deluxe',
                     info1: '-Площадь номера: 30 м2',
                     info2: '-1 двуспальная кровать или 1 раскладной диван',
@@ -67,7 +67,7 @@ export default {
                     info6: '-2 комнаты',
                 }, 
                 {
-                    imgUrl: require('../../assets/img/Cards-Rooms/deluxPlus.svg'),
+                    imgUrl: require('../../../assets/img/Cards-Rooms/deluxPlus.svg'),
                     title: 'Deluxe Plus',
                     info1: '-Площадь номера: 11 м2',
                     info2: '-1 двуспальная кровать или 2 односпальные кровати',

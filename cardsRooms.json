@@ -1,264 +1,342 @@
 {
-    "cards":[
+  "cards": [
+    {
+      "id": 1,
+      "theme": "double",
+      "title": "2-Х МЕСТНЫЙ",
+      "photoRoom": "img/Cards-Rooms/2xroom.jpg",
+      "maxNumberPeople": "img/Cards-Rooms/2people.svg",
+      "photoRoomPhone": "img/Cards-Rooms/PhoneMedia/2xroomPhone.jpg",
+      "maxNumberPeoplePhone": "img/Cards-Rooms/PhoneMedia/maxNumPeoplePhone2x.svg",
+      "freeRooms": 6,
+      "pricesButton": false,
+      "pricesList": false,
+      "info": {
+        "description": "Небольшой и очень уютный светлый номер расположен на 1 этаже, что очень удобно для пожилых людей.",
+        "roomSize": {
+          "title": "Площадь номера:",
+          "info": "11 м2"
+        },
+        "sleepingPlaces": {
+          "title": "Спальные места:",
+          "info": "2 односпальные или 1 двуспальная кровать"
+        },
+        "maxNumberGuests": {
+          "title": "Максимальное количество гостей:",
+          "info": 2
+        },
+        "roomEquipment": {
+          "title": "Оснащение номера:",
+          "info": "Комплект банных принадлежностей, мини-холодильник, современный телевизор с кабельными каналами, кондиционер"
+        },
+        "Payment": {
+          "title": "Оплата:",
+          "info": "Взимается 30 процентов от общей стоимости проживания"
+        },
+        "payNutrition": "1 498,00 руб",
+        "payNotNutrition": "1 598,00 руб"
+      },
+      "payPhone": [
         {
-            "id": 1,
-            "theme": "double",
-            "title": "2-Х МЕСТНЫЙ",
-            "photoRoom": "img/Cards-Rooms/2xroom.jpg",
-            "maxNumberPeople": "img/Cards-Rooms/2people.svg",
-            "photoRoomPhone": "img/Cards-Rooms/PhoneMedia/2xroomPhone.jpg",
-            "maxNumberPeoplePhone": "img/Cards-Rooms/PhoneMedia/maxNumPeoplePhone2x.svg",
-            "freeRooms": 6,
-            "pricesButton": false,
-            "pricesList": false,
-            "info":{
-                "description" : "Небольшой и очень уютный светлый номер расположен на 1 этаже, что очень удобно для пожилых людей.",
-                "roomSize": {
-                    "title":"Площадь номера:",
-                    "info":"11 м2"
-                },
-                "sleepingPlaces":  {
-                    "title":"Спальные места:",
-                    "info":"2 односпальные или 1 двуспальная кровать"
-                },
-                "maxNumberGuests": {
-                    "title":"Максимальное количество гостей:",
-                    "info": 2
-                },
-                "roomEquipment": {
-                    "title":"Оснащение номера:",
-                    "info":"Комплект банных принадлежностей, мини-холодильник, современный телевизор с кабельными каналами, кондиционер"
-                },
-                "Payment": {
-                    "title":"Оплата:",
-                    "info":"Взимается 30 процентов от общей стоимости проживания"
-                },
-                "payNutrition":"1 498,00 руб",
-                "payNotNutrition":"1 598,00 руб"                        
-            },
-            "payPhone": [
-                {
-                    "payNutrition":"1 498,00 руб",
-                    "nutrition": "Без питания"
-                },
-                {
-                    "payNutrition":"1 598,00 руб",
-                    "nutrition": "С питанием для 2-х" 
-                }
-            ]
-             
+          "payNutrition": "1 498,00 руб",
+          "nutrition": "Без питания"
         },
         {
-            "id": 2,
-            "theme": "family",
-            "title": "СЕМЕЙНЫЙ",
-            "photoRoom":"img/Cards-Rooms/famalyRoom.svg",
-            "maxNumberPeople": "img/Cards-Rooms/4people.svg",
-            "photoRoomPhone": "img/Cards-Rooms/PhoneMedia/FamalyPhone.jpg",
-            "maxNumberPeoplePhone": "img/Cards-Rooms/PhoneMedia/maxNumPeoplePhone4x.svg",
-            "freeRooms": 7,
-            "pricesButton": true,
-            "pricesList": true,
-            "info":{
-                "description" : "Идеальный выбор для семейного отдыха в Абхазии! Просторный трехместный номер с возможностью установки дополнительной кровати позволяет это!",
-                "roomSize": {
-                    "title":"Площадь номера:",
-                    "info":"18 м2"
-                },
-                "sleepingPlaces":  {
-                    "title":"Спальные места:",
-                    "info":"1 односпальная и 1 двуспальная кровать"
-                },
-                "maxNumberGuests": {
-                    "title":"Максимальное количество гостей:",
-                    "info":"4"
-                },
-                "roomEquipment": {
-                    "title":"Оснащение номера:",
-                    "info":"Комплект банных принадлежностей, мини-холодильник, современный телевизор с кабельными каналами, кондиционер"
-                },
-                "Payment": { 
-                    "title":"Оплата:",
-                    "info":"Взимается 30 процентов от общей стоимости проживания"
-                },
-                "payNotNutrition":" 2 247,00 руб",
-                "payNutrition": "2 397,00 руб",
-                "payNutrition3x":" 2 397,00 руб",
-                "payNutrition4x":" 3 196,00 руб"
-            },
-            "pay": [
-            {
-                "payNutrition":"2 397,00 руб",
-                "nutrition": "С питанием для 3-х" 
-            },
-            {
-                "payNutrition":"3 196,00 руб",
-                "nutrition": "С питанием для 4-х" 
-            }
-        ],
-        "payPhone": [
-            {
-                "payNutrition":"2 247,00 руб",
-                "nutrition": "Без питания"
-            },
-            {
-                "payNutrition":"2 397,00 руб",
-                "nutrition": "С питанием для 2-х"
-            },
-            {
-                "payNutrition":"2 397,00 руб",
-                "nutrition": "С питанием для 3-х" 
-            },
-            {
-                "payNutrition":"3 196,00 руб",
-                "nutrition": "С питанием для 4-х" 
-            }
-        ]
-        },
-        {
-            "theme": "deluxe",
-            "title": "DELUXE",
-            "photoRoom":"img/Cards-Rooms/deluxRoom.svg",
-            "maxNumberPeople": "img/Cards-Rooms/4people.svg",
-            "photoRoomPhone": "img/Cards-Rooms/PhoneMedia/deluxPhone.jpg",
-            "maxNumberPeoplePhone": "img/Cards-Rooms/PhoneMedia/maxNumPeoplePhone4x.svg",
-            "freeRooms": 8,
-            "pricesButton": true,
-            "pricesList": true,
-            "info":{
-                "description" : "Двухкомнатный просторный номер площадью 30 квадратных метров",
-                "roomSize": {
-                    "title":"Площадь номера:",
-                    "info":"30 м2"
-                },
-                "sleepingPlaces":  {
-                    "title":"Спальные места:",
-                    "info":"1 раскладной диван и 1 двуспальная кровать"
-                },
-                "maxNumberGuests": {
-                    "title":"Максимальное количество гостей:",
-                    "info":"4"
-                },
-                "roomEquipment": {
-                    "title":"Оснащение номера:",
-                    "info":"Комплект банных принадлежностей, мини-холодильник, современный телевизор с кабельными каналами, кондиционер"
-                },
-                "Payment": {
-                    "title":"Оплата:",
-                    "info":"Взимается 30 процентов от общей стоимости проживания"
-                },
-                "payNotNutrition": "2 995,00 руб",
-                "payNutrition": "3 196,00 руб"
-            },
-            "pay": [
-                {
-                    "payNutrition":" 2 995,00 руб",
-                    "nutrition": "Без питания"
-                },
-                {
-                    "payNutrition":"3 196,00 руб",
-                    "nutrition": "С питанием для 2-х" 
-                },
-                {
-                    "payNutrition":"3 196,00 руб",
-                    "nutrition": "С питанием для 4-х" 
-                }
-            ],
-            "payPhone": [
-                {
-                    "payNutrition":" 2 995,00 руб",
-                    "nutrition": "Без питания"
-                },
-                {
-                    "payNutrition":"3 196,00 руб",
-                    "nutrition": "С питанием для 2-х" 
-                },
-                {
-                    "payNutrition":"3 196,00 руб",
-                    "nutrition": "С питанием для 4-х" 
-                }
-            ]
-        },
-        {
-            "theme": "deluxe+",
-            "title": "DELUXE+",
-            "photoRoom":"img/Cards-Rooms/deluxPlusRoom.svg",
-            "maxNumberPeople": "img/Cards-Rooms/7people.svg",
-            "photoRoomPhone": "img/Cards-Rooms/PhoneMedia/deluxPlusPhone.jpg",
-            "maxNumberPeoplePhone": "img/Cards-Rooms/PhoneMedia/maxNumPeoplePhone7x.svg",
-            "freeRooms": 5,
-            "pricesButton": true,
-            "pricesList": true,
-            "info":{
-                "description" : "Небольшой и очень уютный светлый номер расположен на 1 этаже, что очень удобно для пожилых людей.",
-                "roomSize": {
-                    "title":"Площадь номера:",
-                    "info":"30 м2"
-                },
-                "sleepingPlaces":  {
-                    "title":"Спальные места:",
-                    "info":"1 раскладной диван и 1 двуспальная кровать"
-                },
-                "maxNumberGuests": {
-                    "title":"Максимальное количество гостей:",
-                    "info":"4"
-                },
-                "roomEquipment": {
-                    "title":"Оснащение номера:",
-                    "info":"Комплект банных принадлежностей, мини-холодильник, современный телевизор с кабельными каналами, кондиционер"
-                },
-                "Payment": {
-                    "title":"Оплата:",
-                    "info":"Взимается 30 процентов от общей стоимости проживания"
-                },
-                "payNotNutrition": "2 995,00 руб",
-                "payNutrition": "3 196,00 руб"
-            },
-            "pay": [
-                
-                {
-                    "payNutrition":"4 493,00 руб",
-                    "nutrition": "Без питания для 6-х"
-                },
-                {
-                    "payNutrition":"5 242,00 руб",
-                    "nutrition": "Без питания для 7-х"
-                },
-                {
-                    "payNutrition":"4 794,00 руб",
-                    "nutrition": "С питанием для 6-х" 
-                },
-                {
-                    "payNutrition":"5 593,00 руб",
-                    "nutrition": "С питанием для 7-х" 
-                }
-            ],
-            "payPhone": [
-                {
-                    "payNutrition":"2 995,00 руб",
-                    "nutrition": "Без питания" 
-                },
-                {
-                    "payNutrition":"4 493,00 руб",
-                    "nutrition": "Без питания для 6-х"
-                },
-                {
-                    "payNutrition":"5 242,00 руб",
-                    "nutrition": "Без питания для 7-х"
-                },
-                {
-                    "payNutrition":"3 196,00 руб",
-                    "nutrition": "C питания для 2-х"
-                },
-                {
-                    "payNutrition":"4 794,00 руб",
-                    "nutrition": "С питанием для 6-х" 
-                },
-                {
-                    "payNutrition":"5 593,00 руб",
-                    "nutrition": "С питанием для 7-х" 
-                }
-            ]
+          "payNutrition": "1 598,00 руб",
+          "nutrition": "С питанием для 2-х"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "theme": "family",
+      "title": "СЕМЕЙНЫЙ",
+      "photoRoom": "img/Cards-Rooms/famalyRoom.svg",
+      "maxNumberPeople": "img/Cards-Rooms/4people.svg",
+      "photoRoomPhone": "img/Cards-Rooms/PhoneMedia/FamalyPhone.jpg",
+      "maxNumberPeoplePhone": "img/Cards-Rooms/PhoneMedia/maxNumPeoplePhone4x.svg",
+      "freeRooms": 7,
+      "pricesButton": true,
+      "pricesList": true,
+      "info": {
+        "description": "Идеальный выбор для семейного отдыха в Абхазии! Просторный трехместный номер с возможностью установки дополнительной кровати позволяет это!",
+        "roomSize": {
+          "title": "Площадь номера:",
+          "info": "18 м2"
+        },
+        "sleepingPlaces": {
+          "title": "Спальные места:",
+          "info": "1 односпальная и 1 двуспальная кровать"
+        },
+        "maxNumberGuests": {
+          "title": "Максимальное количество гостей:",
+          "info": "4"
+        },
+        "roomEquipment": {
+          "title": "Оснащение номера:",
+          "info": "Комплект банных принадлежностей, мини-холодильник, современный телевизор с кабельными каналами, кондиционер"
+        },
+        "Payment": {
+          "title": "Оплата:",
+          "info": "Взимается 30 процентов от общей стоимости проживания"
+        },
+        "payNotNutrition": " 2 247,00 руб",
+        "payNutrition": "2 397,00 руб",
+        "payNutrition3x": " 2 397,00 руб",
+        "payNutrition4x": " 3 196,00 руб"
+      },
+      "pay": [
+        {
+          "payNutrition": "2 397,00 руб",
+          "nutrition": "С питанием для 3-х"
+        },
+        {
+          "payNutrition": "3 196,00 руб",
+          "nutrition": "С питанием для 4-х"
+        }
+      ],
+      "payPhone": [
+        {
+          "payNutrition": "2 247,00 руб",
+          "nutrition": "Без питания"
+        },
+        {
+          "payNutrition": "2 397,00 руб",
+          "nutrition": "С питанием для 2-х"
+        },
+        {
+          "payNutrition": "2 397,00 руб",
+          "nutrition": "С питанием для 3-х"
+        },
+        {
+          "payNutrition": "3 196,00 руб",
+          "nutrition": "С питанием для 4-х"
+        }
+      ]
+    },
+    {
+      "theme": "deluxe",
+      "title": "DELUXE",
+      "photoRoom": "img/Cards-Rooms/deluxRoom.svg",
+      "maxNumberPeople": "img/Cards-Rooms/4people.svg",
+      "photoRoomPhone": "img/Cards-Rooms/PhoneMedia/deluxPhone.jpg",
+      "maxNumberPeoplePhone": "img/Cards-Rooms/PhoneMedia/maxNumPeoplePhone4x.svg",
+      "freeRooms": 8,
+      "pricesButton": true,
+      "pricesList": true,
+      "info": {
+        "description": "Двухкомнатный просторный номер площадью 30 квадратных метров",
+        "roomSize": {
+          "title": "Площадь номера:",
+          "info": "30 м2"
+        },
+        "sleepingPlaces": {
+          "title": "Спальные места:",
+          "info": "1 раскладной диван и 1 двуспальная кровать"
+        },
+        "maxNumberGuests": {
+          "title": "Максимальное количество гостей:",
+          "info": "4"
+        },
+        "roomEquipment": {
+          "title": "Оснащение номера:",
+          "info": "Комплект банных принадлежностей, мини-холодильник, современный телевизор с кабельными каналами, кондиционер"
+        },
+        "Payment": {
+          "title": "Оплата:",
+          "info": "Взимается 30 процентов от общей стоимости проживания"
+        },
+        "payNotNutrition": "2 995,00 руб",
+        "payNutrition": "3 196,00 руб"
+      },
+      "pay": [
+        {
+          "payNutrition": " 2 995,00 руб",
+          "nutrition": "Без питания"
+        },
+        {
+          "payNutrition": "3 196,00 руб",
+          "nutrition": "С питанием для 2-х"
+        },
+        {
+          "payNutrition": "3 196,00 руб",
+          "nutrition": "С питанием для 4-х"
+        }
+      ],
+      "payPhone": [
+        {
+          "payNutrition": " 2 995,00 руб",
+          "nutrition": "Без питания"
+        },
+        {
+          "payNutrition": "3 196,00 руб",
+          "nutrition": "С питанием для 2-х"
+        },
+        {
+          "payNutrition": "3 196,00 руб",
+          "nutrition": "С питанием для 4-х"
+        }
+      ]
+    },
+    {
+      "theme": "deluxe+",
+      "title": "DELUXE+",
+      "photoRoom": "img/Cards-Rooms/deluxPlusRoom.svg",
+      "maxNumberPeople": "img/Cards-Rooms/7people.svg",
+      "photoRoomPhone": "img/Cards-Rooms/PhoneMedia/deluxPlusPhone.jpg",
+      "maxNumberPeoplePhone": "img/Cards-Rooms/PhoneMedia/maxNumPeoplePhone7x.svg",
+      "freeRooms": 5,
+      "pricesButton": true,
+      "pricesList": true,
+      "info": {
+        "description": "Небольшой и очень уютный светлый номер расположен на 1 этаже, что очень удобно для пожилых людей.",
+        "roomSize": {
+          "title": "Площадь номера:",
+          "info": "30 м2"
+        },
+        "sleepingPlaces": {
+          "title": "Спальные места:",
+          "info": "1 раскладной диван и 1 двуспальная кровать"
+        },
+        "maxNumberGuests": {
+          "title": "Максимальное количество гостей:",
+          "info": "4"
+        },
+        "roomEquipment": {
+          "title": "Оснащение номера:",
+          "info": "Комплект банных принадлежностей, мини-холодильник, современный телевизор с кабельными каналами, кондиционер"
+        },
+        "Payment": {
+          "title": "Оплата:",
+          "info": "Взимается 30 процентов от общей стоимости проживания"
+        },
+        "payNotNutrition": "2 995,00 руб",
+        "payNutrition": "3 196,00 руб"
+      },
+      "pay": [
+        {
+          "payNutrition": "4 493,00 руб",
+          "nutrition": "Без питания для 6-х"
+        },
+        {
+          "payNutrition": "5 242,00 руб",
+          "nutrition": "Без питания для 7-х"
+        },
+        {
+          "payNutrition": "4 794,00 руб",
+          "nutrition": "С питанием для 6-х"
+        },
+        {
+          "payNutrition": "5 593,00 руб",
+          "nutrition": "С питанием для 7-х"
+        }
+      ],
+      "payPhone": [
+        {
+          "payNutrition": "2 995,00 руб",
+          "nutrition": "Без питания"
+        },
+        {
+          "payNutrition": "4 493,00 руб",
+          "nutrition": "Без питания для 6-х"
+        },
+        {
+          "payNutrition": "5 242,00 руб",
+          "nutrition": "Без питания для 7-х"
+        },
+        {
+          "payNutrition": "3 196,00 руб",
+          "nutrition": "C питания для 2-х"
+        },
+        {
+          "payNutrition": "4 794,00 руб",
+          "nutrition": "С питанием для 6-х"
+        },
+        {
+          "payNutrition": "5 593,00 руб",
+          "nutrition": "С питанием для 7-х"
+        }
+      ]
+    }
+  ],
+  "input": [
+    {
+      "dataArrival": "",
+      "dataDeparture": "",
+      "numPeople": "",
+      "id": 1
+    },
+    {
+      "dataArrival": "2021-10-23",
+      "dataDeparture": "2021-10-30",
+      "numPeople": "5",
+      "id": 2
+    },
+    {
+      "dataArrival": "",
+      "dataDeparture": "",
+      "numPeople": "",
+      "id": 3
+    },
+    {
+      "dataArrival": "2021-10-24",
+      "dataDeparture": "2021-10-28",
+      "numPeople": "12",
+      "id": 4
+    },
+    {
+      "dataArrival": "",
+      "dataDeparture": "",
+      "numPeople": "",
+      "id": 5
+    },
+    {
+      "dataArrival": "2021-10-26",
+      "dataDeparture": "2021-11-05",
+      "numPeople": "2",
+      "id": 6
+    },
+    {
+      "dataArrival": "",
+      "dataDeparture": "",
+      "numPeople": "12",
+      "id": 7
+    },
+    {
+      "dataArrival": "",
+      "dataDeparture": "",
+      "numPeople": "12",
+      "id": 8
+    },
+    {
+      "dataArrival": "2021-10-29",
+      "dataDeparture": "2021-11-06",
+      "numPeople": "9",
+      "id": 9
+    },
+    {
+      "dataArrival": "2021-10-29",
+      "dataDeparture": "2021-10-29",
+      "numPeople": "9",
+      "id": 10
+    },
+    {
+      "dataArrival": "2021-10-24",
+      "dataDeparture": "2021-10-29",
+      "numPeople": "6",
+      "id": 11
+    },
+    {
+      "dataArrival": "2021-10-15",
+      "dataDeparture": "2021-10-31",
+      "numPeople": "23",
+      "id": 12
+    },
+    {
+      "dataArrival": "2021-10-07",
+      "dataDeparture": "2021-11-05",
+      "numPeople": "12",
+      "id": 13
+    }
+  ]
 }

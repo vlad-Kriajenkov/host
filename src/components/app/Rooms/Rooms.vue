@@ -1,18 +1,18 @@
 <template>
     <div class="container__Width" >
         <div class="selection__Stage">
-            <img src="../../assets/img/Rooms&Prices/FillLine.svg" alt="Fiil Line">
+            <img src="../../../assets/img/Rooms&Prices/FillLine.svg" alt="Fiil Line">
         </div>
         <div class="container__reservations">
-            <InfoReserva/>
+            <InfoReserva
+            :filterChek="filterChek"
+            />
         </div>
         <div class="container__coupons"> 
             <coupon/>
         </div>
         <div class="container__imformationCards">
-            <ReservCardsList
-            :cardsRooms="cardsRooms"
-            />
+            <ReservCardsList/>
         </div>
         <div class="info_rooms">
             <div class="service">
@@ -111,23 +111,18 @@
 </template>
 
 <script>
-import Coupon from '../../components/app/Coupon'
-import InfoReserva from './InfoReserva.vue'
-import ReservCardsList from './ReservCardsList.vue'
+import Coupon from '../Coupon/Coupon'
+import InfoReserva from '../Rooms/InfoReserv/InfoReserva'
+import ReservCardsList from '../Rooms/ReservCards/ReservCardsList'
 export default {
   components: { InfoReserva, Coupon, ReservCardsList },
     name: 'Rooms',
     data() {
         return { 
-            cardsRooms: []
+            
         }
     },
-    mounted(){
-        fetch('http://localhost:3000/cards')
-        .then(response => response.json())
-        .then(json =>  {
-          this.cardsRooms = json
-        })
-    }
+    props:['filterChek']
+   
 }
 </script>

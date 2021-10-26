@@ -4,9 +4,14 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import moment from 'moment';
+import VueMoment from 'vue-moment';
 
-Vue.config.productionTip = false
+require('moment/locale/es');
+moment.locale('ru');
 
+Vue.config.productionTip = false;
+Vue.use(VueMoment, { moment });
 Vue.use(VueGoogleMaps, {
 
   load: {

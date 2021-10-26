@@ -5,7 +5,11 @@
                 <p class="notNutrition__texts"> Начиная с</p> 
                 <p class="notNutrition__pay">{{cardRoomi.payNutrition}}</p>
                 <p class="notNutrition__texts"> за 1 ночь, за номер</p>
-                <button class="notNutrition__button">Выбрать</button>
+                <router-link 
+                to="/Rooms&Prices/Booking"
+                >
+                    <button class="notNutrition__button">Выбрать</button>
+                </router-link>
                 <p class="notNutrition__texts">{{cardRoomi.nutrition}}</p>
             </div>
         <!-- <span class="v1"></span> -->
@@ -27,7 +31,7 @@ export default {
     }
    
     .ReserveCardPraice{
-        display: flex;
+        display: flex; 
     }
     .pay__notNutritionList{
         text-align: center;
