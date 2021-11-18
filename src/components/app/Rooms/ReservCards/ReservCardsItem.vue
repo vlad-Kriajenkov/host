@@ -32,22 +32,20 @@
                     <h1 class="flex__title">{{cardRoom.info.Payment.title}} <span class="flex__info">{{cardRoom.info.Payment.info}}</span> </h1>
                 </div>    
                 <div v-if="areOptionsViseblePhone">
-                    
-                        <transition  name="fade">
-                                    <div 
-                                    class="ReservCradsPraice__flexPhone"
-                                    >
-                                    <VueSlickCarousel>
-                                        <ReservCradsPraice 
-                                        v-for="cardRoomi in cardRoom.payPhone"
-                                        :key="cardRoomi.id"
-                                        v-bind:cardRoomi="cardRoomi"
-                                        
-                                        />
-                                    </VueSlickCarousel>
-                                    </div>
-                        </transition>
-                    
+                    <transition  name="fade">
+                                <div 
+                                class="ReservCradsPraice__flexPhone"
+                                >
+                                <VueSlickCarousel>
+                                    <ReservCradsPraice 
+                                    v-for="cardRoomi in cardRoom.payPhone"
+                                    :key="cardRoomi.id"
+                                    v-bind:cardRoomi="cardRoomi"
+                                    
+                                    />
+                                </VueSlickCarousel>
+                                </div>
+                    </transition>
                 </div>
             </div>
             <div class="info__calendar">
@@ -63,7 +61,9 @@
                 <p class="notNutrition__texts"> Начиная с</p> 
                 <p class="notNutrition__pay">{{cardRoom.info.payNotNutrition}}</p>
                 <p class="notNutrition__texts"> за 1 ночь, за номер</p>
-                <button class="notNutrition__button">Выбрать</button>
+                <router-link  to="/Rooms-Prices/Booking">
+                    <button class="notNutrition__button">Выбрать</button>
+                </router-link>
                 <p class="notNutrition__texts">Без питания</p>
             </div>
             <hr>
@@ -71,7 +71,9 @@
                 <p class="nutrition__texts"> Начиная с</p> 
                 <p class="nutrition__pay">{{cardRoom.info.payNutrition}}</p>
                 <p class="nutrition__texts"> за 1 ночь, за номер</p>
-                <button  class="nutrition__button">Выбрать</button>
+                <router-link  to="/Rooms-Prices/Booking">
+                    <button  class="nutrition__button">Выбрать</button>
+                </router-link>    
                 <p class="nutrition__texts">С питанием для 2-х</p>
             </div>
         </div>

@@ -5,6 +5,7 @@ import RoomsAndPrices from '../views/Rooms&Prices.vue'
 import Rooms from '../components/app/Rooms/Rooms'
 import Reserve from '../Layouts/Reserve.vue'
 import BookingAndPayment from '../components/app/Booking&Payment/Booking&Payment.vue'
+import Articles from '../views/Articles.vue'
 
 Vue.use(VueRouter)
 
@@ -16,7 +17,7 @@ const routes = [
     component: Home,
   },
   {
-    path: '/Rooms&Prices',
+    path: '/Rooms-Prices',
     name: 'roomsprices',
     meta: {layout: 'main'},
     component: RoomsAndPrices,
@@ -28,13 +29,13 @@ const routes = [
         component: Rooms,
       },
       {
-        path:'/Rooms&Prices/reserve',
+        path:'/Rooms-Prices/reserve',
         name:'Reserve',
         meta:{layout: 'main'},
         component: Reserve,
       },
       {
-        path:'/Rooms&Prices/Booking',
+        path:'/Rooms-Prices/Booking',
         name:'Booking&Payment',
         meta:{layout: 'main'},
         component: BookingAndPayment,
@@ -42,7 +43,13 @@ const routes = [
       }
     ]
 
-  }
+  },
+  {
+    path: '/Articles',
+    name: 'Articles',
+    meta: {layout: 'main'},
+    component: Articles,
+  },
   
 ]
 

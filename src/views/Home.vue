@@ -43,14 +43,6 @@
           
           >
         </label>
-        <!-- <router-link
-        to="/Rooms&Prices"
-        tag="button"
-        type="button"
-        >
-          <input type="button" value="Проверить">
-        </router-link> -->
-        
         <button
         
         value="submit"

@@ -24,4 +24,4 @@ export default {
     this.fetchPost();
     }
 }
-</script>
+</script> 

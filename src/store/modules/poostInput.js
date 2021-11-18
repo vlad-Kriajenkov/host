@@ -14,7 +14,7 @@ export default{
         }
     },
     state: {
-        serchFreRooms: []
+        serchFreRooms: [] 
     },
     getters:{
         Posts(state){

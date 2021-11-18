@@ -63,8 +63,8 @@ export default {
     button_active_state: false,
     links: [
       {title: 'ГЛАВАНАЯ', url: '/'},
-      {title: 'НОМЕРА И ЦЕНЫ', url: '/Rooms&Prices'},
-    //   {title: 'СТАТЬИ', url: '/planning'},
+      {title: 'НОМЕРА И ЦЕНЫ', url: '/Rooms-Prices'},
+      {title: 'СТАТЬИ', url: '/Articles'},
     //   {title: 'ИНФОРМАЦИЯ', url: '/record'},
     //   {title: 'ПОЛНЫЙ ПАНСИОН', url: '/categories'}
     ]

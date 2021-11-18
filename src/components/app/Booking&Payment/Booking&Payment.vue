@@ -15,7 +15,7 @@
                 <div class="Boking__GestContainer">
                     <div class="ButtonPhonePosition">
                         <router-link 
-                        to="/Rooms&Prices"
+                        to="/Rooms-Prices"
                         >
                             <button class="ButtonPhoneBack"></button>
                         </router-link>

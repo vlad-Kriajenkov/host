@@ -6,7 +6,7 @@
                 <p class="notNutrition__pay">{{cardRoomi.payNutrition}}</p>
                 <p class="notNutrition__texts"> за 1 ночь, за номер</p>
                 <router-link 
-                to="/Rooms&Prices/Booking"
+                to="/Rooms-Prices/Booking"
                 >
                     <button class="notNutrition__button">Выбрать</button>
                 </router-link>
